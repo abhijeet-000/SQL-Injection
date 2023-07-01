@@ -33,4 +33,4 @@ web:
   volumes:
    - ./dist/test.war:/usr/local/tomcat/webapps/test.war
   links:
-    - DB_INIT.SQL
+    - db
